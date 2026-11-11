@@ -24,6 +24,6 @@ Static landing page: plain HTML, no build step. Fonts (Google Fonts) and GSAP (c
 
 ## Before launch
 
-- **Social preview:** og:image is a relative path, which Facebook, LinkedIn and X do not accept. Rebuild the package with the final address: `node tools/build-release.mjs https://your-domain.com`, or replace `assets/og-image.png` in the `og:image` tag of `index.html` with the full URL.
+- **Social preview:** og:image, og:url and canonical already point to https://invoicehub-lyart.vercel.app.
 - **Legal pages:** `terms.html`, `privacy.html` and `cookies.html` contain placeholder text.
 - **API:** "Get API key" opens an email to support@invoicehub.com; "Read the docs" is marked Coming soon.
